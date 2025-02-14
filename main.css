@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.conteiner{
+width: 1220px;
+margin: 0 auto;
+
+
+}
+
+.header-wrapper{
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 46px;
+    background-color: #202C36;
+
+}
+.list-header{
+    display: flex;
+    gap: 941px;
+}
+.list-header li {
+    list-style: none;
+  }
+  .list-header li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.82px;
+    
+    
+  }
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #2B3844;
+    color: #2B3844;
+}
+.search-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.card {
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card .description {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Медиазапросы для адаптивности */
+@media (max-width: 768px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
